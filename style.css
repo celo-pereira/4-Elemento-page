@@ -13,19 +13,28 @@
   text-shadow: none;
 }
 
-/* Base structure */
-body {
-  background-image: linear-gradient(to bottom, rgba(3, 19, 34, 0.1), #06121e), url("img/Default_4_elementos_do_hip_hop_dj_mc_bboy_grafitti_0.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh; /* Definindo a altura do body como 100% da altura da janela de visualização */
+html, body {
+  height: 100%;
 }
 
-.row p {
-  height: 200px; /* Altura desejada */
-  overflow-y: scroll; /* Adiciona uma barra de rolagem vertical */
+body {
+  background-attachment: fixed;
 }
+
+body {
+  background-image: linear-gradient(to bottom, rgba(3, 19, 34, 0.1), #06121e), url("img/Default_4_elementos_do_hip_hop_dj_mc_bboy_grafitti_0.jpg");
+  background-size: cover; /* Faz a imagem de fundo cobrir todo o corpo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
+  height: 100%; /* Define a altura do corpo como 100% da altura da janela de visualização */
+}
+
+
+.text-center p {
+  font-size: 16px; /* Reduza o tamanho da fonte em dispositivos móveis */
+  line-height: 1.5; /* Ajuste o espaçamento entre linhas para melhor legibilidade */
+}
+
 
 
 
@@ -40,9 +49,8 @@ main {
 }
 
 .video-container {
-  margin-top: 8px;
+  margin-top: 0px;
   background-color: #06121e;
-  border-radius: 8px;
   width: 90%; /* Definindo largura dos vídeos como 90% */
   margin-left: auto;
   margin-right: auto;

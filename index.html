@@ -30,6 +30,27 @@
         header {
             margin-top: 50px; /* Margem superior para separar do topo da página */
         }
+
+        /* Ajuste a margem inferior do formulário */
+        footer {
+            margin-bottom: 50px; /* Margem inferior para separar do rodapé */
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 768px) {
+            .cover-container {
+                padding: 0; /* Remover o preenchimento para telas menores */
+            }
+
+            .cover-container img {
+                width: 100px; /* Reduzir o tamanho da imagem do logotipo */
+                margin-bottom: 20px; /* Adicionar margem inferior à imagem do logotipo */
+            }
+
+            .nav-masthead {
+                margin-bottom: 20px; /* Adicionar margem inferior ao menu de navegação */
+            }
+        }
     </style>
 </head>
 <body class="d-flex flex-column h-100 text-center text-bg-dark">
@@ -51,18 +72,22 @@
         </header>
         
 
-        <main class="px-3 mt-8 mb-8">
+        <main class="px-3 mt-5 mb-5">
             <div class="container">
-                <div class="historia mt-5 mb-5">
-                    <div class="col-md-8 mx-auto"> <!-- Alterando para col-md-8 para ocupar 2/3 da largura em dispositivos médios -->
-                        <h2 class="text-center">DE VOLTA ÀS RAÍZES DO HIP-HOP</h2>
-                        <hr>
-                        <p class="lead text-center">Muitos falam sobre a cultura Hip-Hop, seus elementos, outros acham que são donos dessa cultura, sem sequer conhecerem suas origens e suas ideias principais, mas ter conhecimento sobre o passado é essencial para viver o presente e transmiti-lo com precisão, construindo o futuro. Falar do início é também lembrar do Kool Herc, ele era “o cara”! Ele foi considerado o “Pai do Hip-Hop” em sua totalidade. Kool fazia graffiti, era DJ, MC e sua turma dançava. A palavra B-Boy veio de Kool Herc, deveria representar o Bronx, na verdade era "Breaking Boys". Quando a galera estava “Breaking” nas festas, significava que eles estavam procurando encrenca, eram “Breaking Boys” e “Breaking Girls”. Quebrar vem da terminologia das ruas. A pergunta “Por que você está quebrando?” significava “Por que você está fazendo coisas fora do comum?” Ficar com raiva era ser “Quebrar”, ou seja, naquela época seria “ficar com raiva, ele está chutando o balde!”. Esta se tornou uma expressão oficial quando Kool Herc a usou. Os B-Boys eram “os garotos que quebraram” e as B-Girls eram “as garotas que quebraram”, o que não tinha ligação e não vinha de quebras, digamos assim, registradas, como muitos podem pensar ou acreditar.</p>
+                <div class="historia">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto">
+                            <h2 class="text-center">DE VOLTA ÀS RAÍZES DO HIP-HOP</h2>
+                            <hr>
+                            <p class="lead text-center">Muitos falam sobre a cultura Hip-Hop, seus elementos, outros acham que são donos dessa cultura, sem sequer conhecerem suas origens e suas ideias principais, mas ter conhecimento sobre o passado é essencial para viver o presente e transmiti-lo com precisão, construindo o futuro. Falar do início é também lembrar do Kool Herc, ele era “o cara”! Ele foi considerado o “Pai do Hip-Hop” em sua totalidade. Kool fazia graffiti, era DJ, MC e sua turma dançava. A palavra B-Boy veio de Kool Herc, deveria representar o Bronx, na verdade era "Breaking Boys". Quando a galera estava “Breaking” nas festas, significava que eles estavam procurando encrenca, eram “Breaking Boys” e “Breaking Girls”. Quebrar vem da terminologia das ruas. A pergunta “Por que você está quebrando?” significava “Por que você está fazendo coisas fora do comum?” Ficar com raiva era ser “Quebrar”, ou seja, naquela época seria “ficar com raiva, ele está chutando o balde!”. Esta se tornou uma expressão oficial quando Kool Herc a usou. Os B-Boys eram “os garotos que quebraram” e as B-Girls eram “as garotas que quebraram”, o que não tinha ligação e não vinha de quebras, digamos assim, registradas, como muitos podem pensar ou acreditar.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </main>
-        
+    
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         
         
         

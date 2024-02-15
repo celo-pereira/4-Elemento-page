@@ -9,7 +9,7 @@
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
-  color:  #06121e;
+  color: #06121e;
   text-shadow: none;
 }
 
@@ -22,10 +22,15 @@ body {
   height: 100vh; /* Definindo a altura do body como 100% da altura da janela de visualização */
 }
 
+.row p {
+  height: 200px; /* Altura desejada */
+  overflow-y: scroll; /* Adiciona uma barra de rolagem vertical */
+}
+
 
 
 .cover-container {
-  margin-top: 12px;
+  margin-top: 0px;
   padding: 8px;
   max-width: 100em;
 }
@@ -38,9 +43,9 @@ main {
   margin-top: 8px;
   background-color: #06121e;
   border-radius: 8px;
-  width: 90%; /* Definindo largura dos vídeos como 50% */
-  margin-left: auto; /* Alinhando à direita */
-  margin-right: auto; /* Alinhando à esquerda */
+  width: 90%; /* Definindo largura dos vídeos como 90% */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .video-container iframe {
@@ -58,9 +63,9 @@ main {
 }
 
 .background {
-  margin-top: -12px; /* Adicione margem superior suficiente para descer os vídeos abaixo da imagem de background */
+  margin-top: auto; /* Adicione margem superior suficiente para descer os vídeos abaixo da imagem de background */
   background-color: #06121e;
-  z-index: -1
+  
 }
 
 .dark-bg {
@@ -75,7 +80,7 @@ main {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color:  #06121e;
+  border-bottom-color: #06121e;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -89,7 +94,7 @@ main {
 
 /* Formulário de contato */
 footer {
-  background-color:  #06121e;
+  background-color: #06121e;
   color: #fff;
   padding: 20px;
 }
@@ -102,3 +107,4 @@ footer {
   background-color: #007bff;
   border-color: #007bff;
 }
+
